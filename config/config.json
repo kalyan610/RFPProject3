@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "rfp-proj-3-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rfpProj3/RfpProj3WebPart.js",
+          "manifest": "./src/webparts/rfpProj3/RfpProj3WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RfpProj3WebPartStrings": "lib/webparts/rfpProj3/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

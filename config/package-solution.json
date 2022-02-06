@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "rfp-proj-3-client-side-solution",
+    "id": "f56751bd-0d8d-48de-9e2a-9d4bcf9dfca5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/rfp-proj-3.sppkg"
+  }
+}
